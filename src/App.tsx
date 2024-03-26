@@ -44,7 +44,6 @@ import { save } from '@tauri-apps/api/dialog'
 import { writeTextFile } from '@tauri-apps/api/fs'
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp'
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown'
-import SponsorChip from './components/SponsorChip'
 import './styles/App.scss'
 import MenuOpenIcon from '@mui/icons-material/MenuOpen'
 import type { DragEndEvent } from '@dnd-kit/core'
@@ -567,7 +566,6 @@ function Main() {
                                     {store.currentSession.name}
                                 </span>
                             </Typography>
-                            <SponsorChip sessionId={store.currentSession.id} />
                             <IconButton
                                 edge="start"
                                 color="inherit"
