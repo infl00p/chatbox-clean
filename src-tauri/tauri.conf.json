@@ -8,7 +8,7 @@
         "withGlobalTauri": true
     },
     "package": {
-        "productName": "chatbox",
+        "productName": "chatbox-clean",
         "version": "0.0.1"
     },
     "tauri": {
@@ -59,7 +59,7 @@
                 "icons/icon.icns",
                 "icons/icon.ico"
             ],
-            "identifier": "xyz.chatboxapp.app",
+            "identifier": "chatbox-clean.app",
             "longDescription": "",
             "macOS": {
                 "entitlements": null,
@@ -85,7 +85,7 @@
             "csp": null
         },
         "updater": {
-            "active": true,
+            "active": false,
             "endpoints": [
                 "https://releases.chatboxai.app/chatbox/{{target}}/{{current_version}}",
                 "https://gist.githubusercontent.com/Bin-Huang/cf0b7684e28b30d760ba02417bbac916/raw/chatbox.releases.json",
@@ -99,7 +99,7 @@
                 "fullscreen": false,
                 "height": 800,
                 "resizable": true,
-                "title": "chatbox",
+                "title": "chatbox-clean",
                 "width": 1000
             }
         ]
